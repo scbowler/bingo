@@ -25,8 +25,7 @@
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.2.2",
     "redux": "^3.7.2",
-    "redux-form": "^7.3.0",
-    "thunk": "0.0.1"
+    "redux-form": "^7.3.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
