@@ -1,0 +1,30 @@
+{
+  "name": "bingo",
+  "version": "1.0.0",
+  "description": "Multiplayer Bingo game",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "npm-run-all --parallel dev:*",
+    "dev:server": "nodemon index.js",
+    "dev:client": "npm run start --prefix client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scbowler/bingo.git"
+  },
+  "author": "Scott Bowler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scbowler/bingo/issues"
+  },
+  "homepage": "https://github.com/scbowler/bingo#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3",
+    "npm-run-all": "^4.1.2"
+  }
+}
